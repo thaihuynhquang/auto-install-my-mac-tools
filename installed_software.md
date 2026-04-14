@@ -1,266 +1,744 @@
 # Installed Software on My MacBook
 
-*Generated on 2025-04-28 19:29:50*
+*Generated on 2026-04-14 15:36:16*
 
 This document lists all software installed on this MacBook.
 
 ## Homebrew Packages (CLI Tools)
 
+- `libb2` - version 0.98.1
+  - *No description available*
+- `aom` - version 3.12.1
+  - *No description available*
 - `autoconf` - version 2.72
-  - *stable 2.72 (bottled)*
+  - *No description available*
 - `automake` - version 1.17
-  - *stable 1.17 (bottled)*
-- `boost` - version 1.86.0_2
-  - *stable 1.87.0 (bottled), HEAD*
+  - *No description available*
+- `boost` - version 1.88.0
+  - *No description available*
 - `brotli` - version 1.1.0
-  - *stable 1.1.0 (bottled), HEAD*
+  - *No description available*
 - `c-ares` - version 1.34.3
-  - *stable 1.34.4 (bottled), HEAD*
-- `ca-certificates` - version 2024-09-24
-  - *stable 2025-02-25 (bottled)*
+  - *No description available*
+- `ca-certificates` - version 2025-05-20
+  - *No description available*
+- `cairo` - version 1.18.4
+  - *No description available*
 - `cmake` - version 3.29.6
-  - *stable 3.31.6 (bottled), HEAD*
+  - *No description available*
 - `coreutils` - version 9.5
-  - *stable 9.6 (bottled), HEAD*
-- `double-conversion` - version 3.3.0
-  - *stable 3.3.1 (bottled), HEAD*
-- `edencommon` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `fb303` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `fbthrift` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `fizz` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `fmt` - version 11.0.2
-  - *stable 11.1.4 (bottled), HEAD*
-- `folly` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
+  - *No description available*
+- `double-conversion` - version 3.3.1
+  - *No description available*
+- `edencommon` - version 2025.04.28.00
+  - *No description available*
+- `fb303` - version 2025.04.28.00
+  - *No description available*
+- `fbthrift` - version 2025.04.28.00
+  - *No description available*
+- `fizz` - version 2025.04.28.00
+  - *No description available*
+- `fmt` - version 11.2.0
+  - *No description available*
+- `folly` - version 2025.04.28.00
+  - *No description available*
+- `fontconfig` - version 2.16.0
+  - *No description available*
+- `freetype` - version 2.13.3
+  - *No description available*
+- `fribidi` - version 1.0.16
+  - *No description available*
 - `fzf` - version 0.57.0
-  - *stable 0.60.3 (bottled), HEAD*
-- `gettext` - version 0.22.5
-  - *stable 0.24 (bottled)*
+  - *No description available*
+- `gdu` - version 5.32.0
+  - *No description available*
+- `gettext` - version 0.26
+  - *No description available*
 - `gflags` - version 2.2.2
-  - *stable 2.2.2 (bottled)*
-- `glib` - version 2.82.2
-  - *stable 2.84.0 (bottled)*
+  - *No description available*
+- `gh` - version 2.89.0
+  - *No description available*
+- `ghostscript` - version 10.05.1
+  - *No description available*
+- `giflib` - version 5.2.2
+  - *No description available*
+- `glib` - version 2.84.3
+  - *No description available*
 - `glog` - version 0.6.0
-  - *stable 0.6.0 (bottled), HEAD*
+  - *No description available*
 - `gmp` - version 6.3.0
-  - *stable 6.3.0 (bottled), HEAD*
-- `gnupg` - version 2.4.6
-  - *stable 2.4.7 (bottled)*
-- `gnutls` - version 3.8.4
-  - *stable 3.8.4 (bottled)*
+  - *No description available*
+- `gnupg` - version 2.4.8
+  - *No description available*
+- `gnutls` - version 3.8.9
+  - *No description available*
+- `graphite2` - version 1.3.14
+  - *No description available*
+- `harfbuzz` - version 11.3.3
+  - *No description available*
+- `highway` - version 1.2.0
+  - *No description available*
 - `icu4c@76` - version 76.1_1
-  - *stable 76.1 (bottled) [keg-only]*
+  - *No description available*
+- `icu4c@77` - version 77.1
+  - *No description available*
+- `idb-companion` - version 1.1.8
+  - *No description available*
+- `imagemagick` - version 7.1.1-47
+  - *No description available*
+- `imath` - version 3.1.12
+  - *No description available*
 - `ios-deploy` - version 1.12.2
-  - *stable 1.12.2 (bottled), HEAD*
-- `libassuan` - version 3.0.1
-  - *stable 3.0.2 (bottled)*
+  - *No description available*
+- `jasper` - version 4.2.5
+  - *No description available*
+- `jbig2dec` - version 0.20
+  - *No description available*
+- `jpeg-turbo` - version 3.1.1
+  - *No description available*
+- `jpeg-xl` - version 0.11.1_1
+  - *No description available*
+- `leptonica` - version 1.85.0
+  - *No description available*
+- `libarchive` - version 3.7.9
+  - *No description available*
+- `libassuan` - version 3.0.2
+  - *No description available*
+- `libb2` - version 0.98.1
+  - *No description available*
+- `libde265` - version 1.0.16
+  - *No description available*
+- `libdeflate` - version 1.24
+  - *No description available*
 - `libevent` - version 2.1.12_1
-  - *stable 2.1.12 (bottled)*
-- `libgcrypt` - version 1.10.3
-  - *stable 1.11.0 (bottled)*
-- `libgpg-error` - version 1.51
-  - *stable 1.51 (bottled)*
-- `libidn2` - version 2.3.7
-  - *stable 2.3.8 (bottled), HEAD*
+  - *No description available*
+- `libgcrypt` - version 1.11.1
+  - *No description available*
+- `libgpg-error` - version 1.55
+  - *No description available*
+- `libheif` - version 1.19.8
+  - *No description available*
+- `libidn` - version 1.43
+  - *No description available*
+- `libidn2` - version 2.3.8
+  - *No description available*
 - `libksba` - version 1.6.7
-  - *stable 1.6.7 (bottled)*
-- `libnghttp2` - version 1.64.0
-  - *stable 1.65.0 (bottled), HEAD*
+  - *No description available*
+- `liblqr` - version 0.4.3
+  - *No description available*
+- `libnghttp2` - version 1.65.0
+  - *No description available*
+- `libomp` - version 20.1.5
+  - *No description available*
+- `libpng` - version 1.6.50
+  - *No description available*
+- `libraw` - version 0.21.4
+  - *No description available*
 - `libsodium` - version 1.0.20
-  - *stable 1.0.20 (bottled), HEAD*
-- `libtasn1` - version 4.19.0
-  - *stable 4.20.0 (bottled)*
+  - *No description available*
+- `libtasn1` - version 4.20.0
+  - *No description available*
+- `libtiff` - version 4.7.0
+  - *No description available*
 - `libtommath` - version 1.3.0
-  - *stable 1.3.0 (bottled), HEAD*
+  - *No description available*
 - `libtool` - version 2.5.4
-  - *stable 2.5.4 (bottled)*
+  - *No description available*
 - `libunistring` - version 1.3
-  - *stable 1.3 (bottled)*
-- `libusb` - version 1.0.27
-  - *stable 1.0.27 (bottled), HEAD*
+  - *No description available*
+- `libusb` - version 1.0.28
+  - *No description available*
 - `libuv` - version 1.49.2
-  - *stable 1.50.0 (bottled), HEAD*
+  - *No description available*
+- `libvmaf` - version 3.0.0
+  - *No description available*
+- `libx11` - version 1.8.12
+  - *No description available*
+- `libxau` - version 1.0.12
+  - *No description available*
+- `libxcb` - version 1.17.0
+  - *No description available*
+- `libxdmcp` - version 1.1.5
+  - *No description available*
+- `libxext` - version 1.3.6
+  - *No description available*
+- `libxrender` - version 0.9.12
+  - *No description available*
 - `libyaml` - version 0.2.5
-  - *stable 0.2.5 (bottled)*
+  - *No description available*
+- `little-cms2` - version 2.17
+  - *No description available*
 - `lz4` - version 1.10.0
-  - *stable 1.10.0 (bottled), HEAD*
+  - *No description available*
+- `lzo` - version 2.10
+  - *No description available*
 - `m4` - version 1.4.19
-  - *stable 1.4.19 (bottled) [keg-only]*
+  - *No description available*
 - `mongodb-atlas-cli` - version 1.30.0
-  - *stable 1.41.0 (bottled), HEAD*
+  - *No description available*
 - `mongodb-community` - version 7.0.11
   - *Document-oriented database. Latest: 7.0.5*
 - `mongodb-database-tools` - version 100.9.4
-  - *stable 100.9.5*
+  - *No description available*
 - `mongosh` - version 2.3.3
-  - *stable 2.4.2 (bottled)*
+  - *No description available*
 - `mpdecimal` - version 4.0.0
-  - *stable 4.0.0 (bottled)*
-- `mvfst` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `nettle` - version 3.10
-  - *stable 3.10.1 (bottled)*
+  - *No description available*
+- `mvfst` - version 2025.04.28.00
+  - *No description available*
+- `ncurses` - version 6.6
+  - *No description available*
+- `nettle` - version 3.10.1
+  - *No description available*
 - `node` - version 23.2.0
   - *JavaScript runtime environment. Latest LTS: 20.11.1 (Iron)*
 - `node@16` - version 16.20.2_1
   - *JavaScript runtime environment. LTS ended 2023-09-11*
-- `npth` - version 1.7
-  - *stable 1.8 (bottled)*
+- `npth` - version 1.8
+  - *No description available*
+- `openapi-generator` - version 7.14.0
+  - *No description available*
+- `openexr` - version 3.3.3
+  - *No description available*
+- `openjdk` - version 24.0.2
+  - *No description available*
+- `openjpeg` - version 2.5.3
+  - *No description available*
 - `openssl@1.1` - version 1.1.1w
-  - *stable 1.1.1w (bottled) [keg-only]*
-- `openssl@3` - version 3.4.0
+  - *No description available*
+- `openssl@3` - version 3.5.0
   - *Cryptography and SSL/TLS toolkit. Latest: 3.2.1*
 - `p11-kit` - version 0.25.5
-  - *stable 0.25.5 (bottled), HEAD*
+  - *No description available*
 - `pandoc` - version 3.2
-  - *stable 3.6.4 (bottled), HEAD*
-- `pcre2` - version 10.44
-  - *stable 10.45 (bottled), HEAD*
+  - *No description available*
+- `pango` - version 1.56.3
+  - *No description available*
+- `pcre2` - version 10.45
+  - *No description available*
 - `pinentry` - version 1.3.1_1
-  - *stable 1.3.1 (bottled)*
-- `pipx` - version 1.7.1
-  - *stable 1.7.1 (bottled), HEAD*
-- `pkgconf` - version 2.3.0_1
-  - *stable 2.4.3 (bottled), HEAD*
+  - *No description available*
+- `pipx` - version 1.7.1_1
+  - *No description available*
+- `pixman` - version 0.46.4
+  - *No description available*
+- `pkgconf` - version 2.5.1
+  - *No description available*
 - `pyenv` - version 2.4.17
-  - *stable 2.5.4 (bottled), HEAD*
-- `python-packaging` - version 24.2
-  - *stable 24.2 (bottled)*
-- `python@3.11` - version 3.11.10
+  - *No description available*
+- `python@3.11` - version 3.11.12
   - *Interpreted programming language. Latest: 3.11.8*
-- `python@3.12` - version 3.12.7_1
+- `python@3.12` - version 3.12.10
   - *Interpreted programming language. Latest: 3.12.3*
-- `python@3.13` - version 3.13.0_1
+- `python@3.13` - version 3.13.3
   - *Interpreted programming language. Latest: 3.13.0 (Alpha)*
 - `readline` - version 8.2.13
-  - *stable 8.2.13 (bottled) [keg-only]*
+  - *No description available*
 - `redis` - version 7.2.6
   - *In-memory database that persists on disk. Latest: 7.2.4*
+- `rtk` - version 0.35.0
+  - *No description available*
 - `shared-mime-info` - version 2.4
-  - *stable 2.4 (bottled), HEAD*
+  - *No description available*
 - `snappy` - version 1.2.1
-  - *stable 1.2.1 (bottled), HEAD*
-- `sqlite` - version 3.47.0
-  - *stable 3.49.1 (bottled) [keg-only]*
+  - *No description available*
+- `sqlite` - version 3.49.2
+  - *No description available*
+- `swift-format` - version 602.0.0
+  - *No description available*
+- `swiftlint` - version 0.63.2
+  - *No description available*
 - `tcl-tk` - version 9.0.0_1
-  - *stable 9.0.1 (bottled)*
-- `unbound` - version 1.22.0
-  - *stable 1.22.0 (bottled), HEAD*
-- `wangle` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
-- `watchman` - version 2024.11.11.00
-  - *stable 2025.03.10.00 (bottled), HEAD*
+  - *No description available*
+- `tesseract` - version 5.5.0_1
+  - *No description available*
+- `tmux` - version 3.6a
+  - *No description available*
+- `unbound` - version 1.23.0
+  - *No description available*
+- `utf8proc` - version 2.11.3
+  - *No description available*
+- `wangle` - version 2025.04.28.00
+  - *No description available*
+- `watchman` - version 2025.04.28.00
+  - *No description available*
+- `webp` - version 1.5.0
+  - *No description available*
 - `wget` - version 1.25.0
   - *Internet file retriever. Latest: 1.24.5*
-- `xxhash` - version 0.8.2
-  - *stable 0.8.3 (bottled)*
-- `xz` - version 5.6.3
-  - *stable 5.6.4 (bottled)*
+- `x265` - version 4.1
+  - *No description available*
+- `xcodegen` - version 2.44.1
+  - *No description available*
+- `xcparse` - version 2.3.2
+  - *No description available*
+- `xorgproto` - version 2024.1
+  - *No description available*
+- `xxhash` - version 0.8.3
+  - *No description available*
+- `xz` - version 5.8.1
+  - *No description available*
 - `yarn` - version 1.22.22
   - *JavaScript package manager. Latest: 1.22.22*
 - `zlib` - version 1.3.1
-  - *stable 1.3.1 (bottled), HEAD [keg-only]*
-- `zstd` - version 1.5.6
-  - *stable 1.5.7 (bottled), HEAD*
+  - *No description available*
+- `zstd` - version 1.5.7
+  - *No description available*
 
 ## Homebrew Cask Applications
 
-- **font-fira-code** - version 6.2
+- `libde265` - version 1.0.16
+  - *No description available*
+- **font-fira-code** - version Unknown
   - *Monospaced font with programming ligatures*
-- **react-native-debugger** - version 0.14.0
+- **font-jetbrains-mono-nerd-font** - version Unknown
+  - *No description available*
+- **react-native-debugger** - version Unknown
   - *Standalone debugger for React Native applications*
-- **reactotron** - version 3.7.7
+- **reactotron** - version Unknown
   - *Desktop app for inspecting React JS and React Native projects*
-- **zulu@11** - version 11.0.26,11.78.15
+- **zulu11** - version Unknown
+  - *No description available*
+- **zulu17** - version Unknown
+  - *No description available*
+- **zulu@11** - version Unknown
   - *OpenJDK distribution from Azul. LTS until 2024-10*
-- **zulu@17** - version 17.0.14,17.56.15
+- **zulu@17** - version Unknown
   - *OpenJDK distribution from Azul. LTS until 2029-10*
-- **zulu11** - version 11.0.26,11.78.15
-  - *11.0.26,11.78.15*
-- **zulu17** - version 17.0.14,17.56.15
-  - *17.0.14,17.56.15*
 
 ## Ruby Version Manager (RVM)
 
-RVM version: 1.29.12
+RVM version: 
   - *Ruby environment manager to install and manage multiple Ruby versions*
 
 ### Installed Ruby Versions
 
-- ruby-2.7.6 [ arm64 ]
-  - *Dynamic programming language. EOL: 2023-03-31*
-- ruby-2.7.8 [ arm64 ]
-  - *Dynamic programming language. EOL: 2023-03-31*
-- ruby-3.2.4 [ arm64 ]
-  - *Dynamic programming language. Maintenance until 2026-03-31*
-- =* ruby-3.3.6 [ arm64 ]
-  - *Dynamic programming language. Latest: 3.3.0*
-
-Default Ruby: -
 
 ## Node Version Manager (NVM)
 
+- `libdeflate` - version 1.24
+  - *No description available*
 NVM version: 0.40.1
   - *Node.js version manager to install and switch between multiple Node.js versions*
 
 ### Installed Node.js Versions
 
+- `libevent` - version 2.1.12_1
+  - *No description available*
 - v16.20.2 *
   - *Node.js Gallium. LTS ended 2023-09-11*
 - v18.20.6 *
   - *Node.js Hydrogen. LTS ended 2025-04-30*
 - v20.18.2 *
   - *Node.js Iron. LTS until 2026-04-30*
-- ->     v22.13.1 *
+- v20.19.5 *
+  - *Node.js JavaScript runtime*
+- v22.13.1 *
   - *Node.js. Current version, not LTS*
+- ->     v22.22.1 *
+  - *Node.js JavaScript runtime*
 - lts/gallium -> v16.20.2 *
   - *Node.js Gallium. LTS ended 2023-09-11*
+- lts/jod -> v22.22.1 *
+  - *Node.js JavaScript runtime*
 
-Current Node.js: v22.13.1
+Current Node.js: v22.22.1
+
+## npm Global Packages
+
+- `libgcrypt` - version 
+  - *No description available*
+- `@openai/codex` - version 0.118.0
+- `corepack` - version 0.34.6
+- `md-to-pdf` - version 5.2.5
+- `npm` - version 10.9.4
+- `xc-mcp` - version 3.2.0
+- `xcodebuildmcp` - version 2.3.1
 
 ## Applications in /Applications
 
-- **Android Studio** - version 2024.3
+- **Android Studio** - version 2025.3
+- **Antigravity** - version 1.20.5
 - **Arc** - version 0.86.0
-- **balenaEtcher** - version 1.18.4
-- **Be Focused** - version 2.5
-- **Calendr** - version 1.16.3
-- **calibre** - version 6.11.0
-- **Cursor** - version 0.49.6
-- **Figma** - version 125.3.6
+- **Be Focused** - version 2.5.2
+- **Calendr** - version 1.20.5
+- **ChatGPT** - version 1.2026.049
+- **Claude** - version 1.2278.0
+- **Codex Switcher** - version 0.1.0
+- **Codex** - version 26.406.31014
+- **Comet** - version 140.1.7339.21337
+- **Cursor** - version 3.1.10
+- **Figma** - version 126.2.10
 - **Filebar** - version 0.5
 - **GoTiengViet** - version 2.3
+- **Google Chrome** - version 147.0.7727.56
+- **Keynote** - version 14.5
+- **Linear** - version 1.29.5
+- **Microsoft Edge** - version 147.0.3912.60
+- **MongoDB Compass** - version 1.45.0
+- **Numbers** - version 14.5
+- **OBS** - version 31.0.0
+- **Pages** - version 14.5
+- **Postman** - version 11.40.5
+- **React Native Debugger** - version 0.14.0
+- **Reactotron** - version 3.8.2
+- **Rectangle** - version 0.94
+- **Redis Insight** - version 2.60.0
+- **Reminders MenuBar** - version 1.23.0
+- **Safari** - version 26.4
+- **Slack** - version 4.48.100
+- **Snag** - version 1.1.2
+- **TeamViewer** - version 15.47.3
+- `libgcrypt` - version 1.11.1
+  - *No description available*
+- **The Unarchiver** - version 4.3.8
+- **Visual Studio Code** - version 1.115.0
+- **Warp** - version 0.2026.04.01.08.39.02
+- **Xcode** - version 26.4
+- **Zalo** - version 25.5.3
+- **balenaEtcher** - version 1.18.4
+- **calibre** - version 6.11.0
+- **cmux** - version 0.61.0
 - **iMovie** - version 10.3.3
 - **iTerm x86_64** - version 3.4.20
 - **iTerm** - version 3.4.19
-- **Keynote** - version 12.0
 - **lghub** - version Unknown
-- **Linear** - version 1.24.1
-- **logioptionsplus** - version 1.89.705126
-- **Microsoft Edge** - version 135.0.3179.98
-- **MongoDB Compass** - version 1.45.0
-- **Numbers** - version 12.0
-- **OBS** - version 31.0.0
-- **Pages** - version 12.0
-- **Postman** - version 11.40.5
-- **React Native Debugger** - version 0.14.0
-- **Reactotron** - version 3.7.7
-- **Rectangle** - version 0.87
-- **Redis Insight** - version 2.60.0
-- **Reminders MenuBar** - version 1.23.0
-- **Safari** - version 18.4
-- **Slack** - version 4.43.52
-- **TeamViewer** - version 15.47.3
-- **The Unarchiver** - version 4.3.8
-- **Visual Studio Code** - version 1.99.3
-- **Xcode** - version 16.2
-- **Zalo** - version 24.11.1
+- **logioptionsplus** - version 2.1.854976
 - **zoom.us** - version 5.17.5 (29101)
 
 ## Applications in ~/Applications
 
+- **Claude Code URL Handler** - version Unknown
 
+- `libgpg-error` - version 1.55
+  - *No description available*
+- `libheif` - version 1.19.8
+  - *No description available*
+- `libidn` - version 1.43
+  - *No description available*
+- `libidn2` - version 2.3.8
+  - *No description available*
+- `libksba` - version 1.6.7
+  - *No description available*
+- `libgpg-error` - version 
+  - *No description available*
+- `liblqr` - version 0.4.3
+  - *No description available*
+- `libnghttp2` - version 1.65.0
+  - *No description available*
+- `libomp` - version 20.1.5
+  - *No description available*
+- `libpng` - version 1.6.50
+  - *No description available*
+- `libraw` - version 0.21.4
+  - *No description available*
+- `libsodium` - version 1.0.20
+  - *No description available*
+- `libheif` - version 
+  - *No description available*
+- `libtasn1` - version 4.20.0
+  - *No description available*
+- `libtiff` - version 4.7.0
+  - *No description available*
+- `libtommath` - version 1.3.0
+  - *No description available*
+- `libtool` - version 2.5.4
+  - *No description available*
+- `libunistring` - version 1.3
+  - *No description available*
+- `libusb` - version 1.0.28
+  - *No description available*
+- `libidn` - version 
+  - *No description available*
+- `libuv` - version 1.49.2
+  - *No description available*
+- `libvmaf` - version 3.0.0
+  - *No description available*
+- `libx11` - version 1.8.12
+  - *No description available*
+- `libxau` - version 1.0.12
+  - *No description available*
+- `libxcb` - version 1.17.0
+  - *No description available*
+- `libxdmcp` - version 1.1.5
+  - *No description available*
+- `libidn2` - version 
+  - *No description available*
+- `libxext` - version 1.3.6
+  - *No description available*
+- `libxrender` - version 0.9.12
+  - *No description available*
+- `libyaml` - version 0.2.5
+  - *No description available*
+- `little-cms2` - version 2.17
+  - *No description available*
+- `lz4` - version 1.10.0
+  - *No description available*
+- `lzo` - version 2.10
+  - *No description available*
+- `libksba` - version 
+  - *No description available*
+- `m4` - version 1.4.19
+  - *No description available*
+- `mongodb-atlas-cli` - version 1.30.0
+  - *No description available*
+- `mongodb-community` - version 7.0.11
+  - *Document-oriented database. Latest: 7.0.5*
+- `liblqr` - version 
+  - *No description available*
+- `libnghttp2` - version 
+  - *No description available*
+- `libomp` - version 
+  - *No description available*
+- `mongodb-database-tools` - version 100.9.4
+  - *stable 100.16.0*
+- `mongosh` - version 2.3.3
+  - *No description available*
+- `libpng` - version 
+  - *No description available*
+- `mpdecimal` - version 4.0.0
+  - *No description available*
+- `mvfst` - version 2025.04.28.00
+  - *No description available*
+- `ncurses` - version 6.6
+  - *No description available*
+- `nettle` - version 3.10.1
+  - *No description available*
+- `node` - version 23.2.0
+  - *JavaScript runtime environment. Latest LTS: 20.11.1 (Iron)*
+- `node@16` - version 16.20.2_1
+  - *JavaScript runtime environment. LTS ended 2023-09-11*
+- `npth` - version 1.8
+  - *No description available*
+- `openapi-generator` - version 7.14.0
+  - *No description available*
+- `openexr` - version 3.3.3
+  - *No description available*
+- `libraw` - version 
+  - *No description available*
+- `openjdk` - version 24.0.2
+  - *No description available*
+- `openjpeg` - version 2.5.3
+  - *No description available*
+- `openssl@1.1` - version 1.1.1w
+  - *No description available*
+- `openssl@3` - version 3.5.0
+  - *Cryptography and SSL/TLS toolkit. Latest: 3.2.1*
+- `p11-kit` - version 0.25.5
+  - *No description available*
+- `pandoc` - version 3.2
+  - *No description available*
+- `pango` - version 1.56.3
+  - *No description available*
+- `pcre2` - version 10.45
+  - *No description available*
+- `libsodium` - version 
+  - *No description available*
+- `pinentry` - version 1.3.1_1
+  - *No description available*
+- `pipx` - version 1.7.1_1
+  - *No description available*
+- `pixman` - version 0.46.4
+  - *No description available*
+- `pkgconf` - version 2.5.1
+  - *No description available*
+- `pyenv` - version 2.4.17
+  - *No description available*
+- `python@3.11` - version 3.11.12
+  - *Interpreted programming language. Latest: 3.11.8*
+- `python@3.12` - version 3.12.10
+  - *Interpreted programming language. Latest: 3.12.3*
+- `python@3.13` - version 3.13.3
+  - *Interpreted programming language. Latest: 3.13.0 (Alpha)*
+- `readline` - version 8.2.13
+  - *No description available*
+- `redis` - version 7.2.6
+  - *In-memory database that persists on disk. Latest: 7.2.4*
+- `rtk` - version 0.35.0
+  - *No description available*
+- `libtasn1` - version 
+  - *No description available*
+- `shared-mime-info` - version 2.4
+  - *No description available*
+- `snappy` - version 1.2.1
+  - *No description available*
+- `sqlite` - version 3.49.2
+  - *No description available*
+- `swift-format` - version 602.0.0
+  - *No description available*
+- `swiftlint` - version 0.63.2
+  - *No description available*
+- `tcl-tk` - version 9.0.0_1
+  - *No description available*
+- `tesseract` - version 5.5.0_1
+  - *No description available*
+- `libtiff` - version 
+  - *No description available*
+- `tmux` - version 3.6a
+  - *No description available*
+- `unbound` - version 1.23.0
+  - *No description available*
+- `utf8proc` - version 2.11.3
+  - *No description available*
+- `wangle` - version 2025.04.28.00
+  - *No description available*
+- `libtommath` - version 
+  - *No description available*
+- `libtool` - version 
+  - *No description available*
+- `libunistring` - version 
+  - *No description available*
+- `libusb` - version 
+  - *No description available*
+- `watchman` - version 2025.04.28.00
+  - *stable 2020.08.17.00*
+- `webp` - version 1.5.0
+  - *No description available*
+- `wget` - version 1.25.0
+  - *Internet file retriever. Latest: 1.24.5*
+- `x265` - version 4.1
+  - *No description available*
+- `xcodegen` - version 2.44.1
+  - *No description available*
+- `libuv` - version 
+  - *No description available*
+- `libvmaf` - version 
+  - *No description available*
+- `libx11` - version 
+  - *No description available*
+- `libxau` - version 
+  - *No description available*
+- `xcparse` - version 2.3.2
+  - *stable 2.3.2, HEAD*
+- `xorgproto` - version 2024.1
+  - *No description available*
+- `xxhash` - version 0.8.3
+  - *No description available*
+- `xz` - version 5.8.1
+  - *No description available*
+- `yarn` - version 1.22.22
+  - *JavaScript package manager. Latest: 1.22.22*
+- `zlib` - version 1.3.1
+  - *No description available*
+- `zstd` - version 1.5.7
+  - *No description available*
+
+## Homebrew Cask Applications
+
+- **font-fira-code** - version Unknown
+  - *Monospaced font with programming ligatures*
+- `libxcb` - version 
+  - *No description available*
+- **font-jetbrains-mono-nerd-font** - version Unknown
+  - *3.4.0*
+- **react-native-debugger** - version Unknown
+  - *Standalone debugger for React Native applications*
+- **reactotron** - version Unknown
+  - *Desktop app for inspecting React JS and React Native projects*
+- **zulu11** - version Unknown
+  - *No description available*
+- **zulu17** - version Unknown
+  - *No description available*
+- **zulu@11** - version Unknown
+  - *OpenJDK distribution from Azul. LTS until 2024-10*
+- **zulu@17** - version Unknown
+  - *OpenJDK distribution from Azul. LTS until 2029-10*
+
+- 
+  - **
+- `libxdmcp` - version 
+  - *No description available*
+- `libxext` - version 
+  - *No description available*
+- `libxrender` - version 
+  - *No description available*
+- `libyaml` - version 
+  - *No description available*
+- `little-cms2` - version 
+  - *No description available*
+- `lz4` - version 
+  - *No description available*
+- `lzo` - version 
+  - *No description available*
+- `m4` - version 
+  - *No description available*
+- `mongodb-atlas-cli` - version 
+  - *No description available*
+- `mongodb-community` - version 
+  - *Document-oriented database. Latest: 7.0.5*
+- `mongodb-database-tools` - version 
+  - *No description available*
+- `mongosh` - version 
+  - *No description available*
+- `mpdecimal` - version 
+  - *No description available*
+- `mvfst` - version 
+  - *No description available*
+- `ncurses` - version 
+  - *No description available*
+- `nettle` - version 
+  - *No description available*
+- `node` - version 
+  - *JavaScript runtime environment. Latest LTS: 20.11.1 (Iron)*
+- `node@16` - version 
+  - *JavaScript runtime environment. LTS ended 2023-09-11*
+- `npth` - version 
+  - *No description available*
+- `openapi-generator` - version 
+  - *No description available*
+- `openexr` - version 
+  - *No description available*
+- `openjdk` - version 
+  - *No description available*
+- `openjpeg` - version 
+  - *No description available*
+- `openssl@1.1` - version 
+  - *No description available*
+- `openssl@3` - version 
+  - *Cryptography and SSL/TLS toolkit. Latest: 3.2.1*
+- `p11-kit` - version 
+  - *No description available*
+- `pandoc` - version 
+  - *No description available*
+- `pango` - version 
+  - *No description available*
+- `pcre2` - version 
+  - *No description available*
+- `pinentry` - version 
+  - *No description available*
+- `pipx` - version 
+  - *No description available*
+- `pixman` - version 
+  - *No description available*
+- `pkgconf` - version 
+  - *No description available*
+- `pyenv` - version 
+  - *No description available*
+- `python@3.11` - version 
+  - *Interpreted programming language. Latest: 3.11.8*
+- `python@3.12` - version 
+  - *Interpreted programming language. Latest: 3.12.3*
+- `python@3.13` - version 
+  - *Interpreted programming language. Latest: 3.13.0 (Alpha)*
+- `readline` - version 
+  - *No description available*
+- `redis` - version 
+  - *In-memory database that persists on disk. Latest: 7.2.4*
+- `rtk` - version 
+  - *No description available*
+- `shared-mime-info` - version 
+  - *No description available*
+- `snappy` - version 
+  - *No description available*
+- `sqlite` - version 
+  - *No description available*
+- `swift-format` - version 
+  - *No description available*
+- `swiftlint` - version 
+  - *No description available*
+- `tcl-tk` - version 
+  - *No description available*
+- `tesseract` - version 
+  - *No description available*
+- `tmux` - version 
+  - *No description available*

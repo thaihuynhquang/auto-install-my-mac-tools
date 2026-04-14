@@ -2,6 +2,7 @@
 
 # Script to list installed software on macOS and output as markdown
 OUTPUT_FILE="installed_software.md"
+BREW_ENV_PREFIX="HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_FROM_API=1"
 
 # Create markdown file with header
 cat > "$OUTPUT_FILE" << EOL
@@ -38,17 +39,6 @@ get_description() {
         # Other cases remain unchanged
     esac
     
-    # If no predefined description, try to fetch from online
-    if [ -z "$predefined_desc" ] && [ "$type" = "brew" ]; then
-        # Try to get description from brew info
-        local online_desc=$(brew info "$software" 2>/dev/null | head -n 1 | cut -d':' -f2- | sed 's/^[ \t]*//')
-        
-        if [ -n "$online_desc" ]; then
-            echo "$online_desc"
-            return
-        fi
-    fi
-    
     # If we have a predefined description, use it
     if [ -n "$predefined_desc" ]; then
         echo "$predefined_desc"
@@ -64,15 +54,7 @@ get_description() {
                 "reactotron") echo "Desktop app for inspecting React JS and React Native projects" ;;
                 "zulu@11") echo "OpenJDK distribution from Azul. LTS until 2024-10" ;;
                 "zulu@17") echo "OpenJDK distribution from Azul. LTS until 2029-10" ;;
-                *) 
-                    # Try to get description from brew info for casks
-                    local cask_desc=$(brew info --cask "$software" 2>/dev/null | head -n 1 | cut -d':' -f2- | sed 's/^[ \t]*//')
-                    if [ -n "$cask_desc" ]; then
-                        echo "$cask_desc"
-                    else
-                        echo "No description available"
-                    fi
-                    ;;
+                *) echo "No description available" ;;
             esac
             ;;
         "ruby")
@@ -103,10 +85,12 @@ get_description() {
 if command -v brew &> /dev/null; then
     echo "## Homebrew Packages (CLI Tools)" >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
-    
+    formula_versions=$(env $BREW_ENV_PREFIX brew list --formula --versions 2>/dev/null)
+
     # Get Homebrew formula packages and format as markdown list
-    brew list --formula | sort | while read -r package; do
-        version=$(brew info --json=v1 "$package" | jq -r '.[0].installed[0].version')
+    env $BREW_ENV_PREFIX brew list --formula 2>/dev/null | sort | while read -r package; do
+        version=$(echo "$formula_versions" | awk -v pkg="$package" '$1 == pkg {print $2; exit}')
+        version=${version:-Unknown}
         description=$(get_description "$package" "brew")
         echo "- \`$package\` - version $version" >> "$OUTPUT_FILE"
         echo "  - *$description*" >> "$OUTPUT_FILE"
@@ -117,9 +101,10 @@ if command -v brew &> /dev/null; then
     echo "" >> "$OUTPUT_FILE"
     
     # Get Homebrew cask applications and format as markdown list
-    brew list --cask | sort | while read -r app; do
-        # Use --json=v2 for casks, which works with both formulae and casks
-        version=$(brew info --json=v2 "$app" | jq -r '.casks[0].version')
+    cask_versions=$(env $BREW_ENV_PREFIX brew list --cask --versions 2>/dev/null)
+    env $BREW_ENV_PREFIX brew list --cask 2>/dev/null | sort | while read -r app; do
+        version=$(echo "$cask_versions" | awk -v pkg="$app" '$1 == pkg {print $2; exit}')
+        version=${version:-Unknown}
         description=$(get_description "$app" "cask")
         echo "- **$app** - version $version" >> "$OUTPUT_FILE"
         echo "  - *$description*" >> "$OUTPUT_FILE"
@@ -212,6 +197,25 @@ else
     echo "NVM is not installed." >> "$OUTPUT_FILE"
     echo "" >> "$OUTPUT_FILE"
 fi
+
+# Check if npm is installed
+echo "## npm Global Packages" >> "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE"
+if command -v npm &> /dev/null; then
+    npm_global_json=$(npm list -g --depth=0 --json 2>/dev/null)
+    npm_packages=$(echo "$npm_global_json" | jq -r '.dependencies // {} | to_entries[] | "\(.key)\t\(.value.version // "Unknown")"' | sort)
+
+    if [ -n "$npm_packages" ]; then
+        while IFS=$'\t' read -r package version; do
+            echo "- \`$package\` - version $version" >> "$OUTPUT_FILE"
+        done <<< "$npm_packages"
+    else
+        echo "No global npm packages found." >> "$OUTPUT_FILE"
+    fi
+else
+    echo "npm is not installed or not available in PATH." >> "$OUTPUT_FILE"
+fi
+echo "" >> "$OUTPUT_FILE"
 
 # List applications in /Applications
 echo "## Applications in /Applications" >> "$OUTPUT_FILE"
